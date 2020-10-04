@@ -1,0 +1,34 @@
+.home {
+  height: inherit;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.flex-child {
+  margin: 1.5rem;
+  width: 100%;
+}
+
+.home .container {
+  margin: 2rem auto;
+}
+
+.home .col {
+  text-align: center;
+}
+
+.home .col .btn {
+  font-size: 1.2rem;
+}
+
+.home .jumbotron {
+  background: transparent !important;
+  padding: 2rem !important;
+  border: 2px solid #e6e6e6;
+}
